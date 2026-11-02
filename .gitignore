@@ -1,0 +1,10 @@
+# En la raíz del proyecto
+cat << 'EOF' >> .gitignore
+/vendor/
+/node_modules/
+.env
+*.log
+logs/
+.idea/
+.vscode/
+EOF
